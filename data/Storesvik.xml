@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Root>
+<ChainId>7290803800003</ChainId>
+<ChainName>מ. יוחננוף ובניו</ChainName>
+<XmlDocVersion>00000</XmlDocVersion>
+<LastUpdateDate>2020-04-03</LastUpdateDate>
+<LastUpdateTime>01:00:00</LastUpdateTime>
+<SubChains>
+<SubChain>
+<SubChainId>1</SubChainId>
+<SubChainName>1</SubChainName>
+<Stores>
+<Store>
+<StoreId>1</StoreId>
+<BikoretNo>6</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>יוחננוף מפוח</StoreName>
+<Address>רחוב המפוח 11, אזור התעשיה</Address>
+<City>רחובות</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>4</StoreId>
+<BikoretNo>3</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>בילו</StoreName>
+<Address>צומת ביל"ו</Address>
+<City>unknown</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>5</StoreId>
+<BikoretNo>2</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>אשדוד</StoreName>
+<Address>זבוטינסקי 27, סטאר סנטר</Address>
+<City>אשדוד</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>7</StoreId>
+<BikoretNo>0</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>עקרון</StoreName>
+<Address>המלך חסן 1</Address>
+<City>קרית עקרון</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>8</StoreId>
+<BikoretNo>9</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>אחד העם</StoreName>
+<Address>רחוב אחד העם 19</Address>
+<City>רחובות</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>9</StoreId>
+<BikoretNo>8</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>נתיבות</StoreName>
+<Address>רחוב בעלי המלאכה 2, א.התעשיה</Address>
+<City>נתיבות</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>12</StoreId>
+<BikoretNo>4</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>רמלה</StoreName>
+<Address>שדרות ירושלים פינת נופי חמד</Address>
+<City>רמלה</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>13</StoreId>
+<BikoretNo>3</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>חוצות המפרץ</StoreName>
+<Address>החרושת 10 חוצות המפרץ</Address>
+<City>חיפה</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>15</StoreId>
+<BikoretNo>1</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>אור יהודה</StoreName>
+<Address>רחוב הפלדה 1</Address>
+<City>אור יהודה</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>16</StoreId>
+<BikoretNo>0</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>גן יבנה</StoreName>
+<Address>דרך מנחם בגין פינת המגנים 57</Address>
+<City>גן יבנה</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>17</StoreId>
+<BikoretNo>9</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>מודיעין ישפרו</StoreName>
+<Address>unknown</Address>
+<City>unknown</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>18</StoreId>
+<BikoretNo>8</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>מודיעין כרמים</StoreName>
+<Address>unknown</Address>
+<City>unknown</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>19</StoreId>
+<BikoretNo>7</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>אור יהודה גדול</StoreName>
+<Address>אור יהודה</Address>
+<City>אור יהודה</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>20</StoreId>
+<BikoretNo>3</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>ירושלים תלפיות</StoreName>
+<Address>האומן</Address>
+<City>ירושלים</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>21</StoreId>
+<BikoretNo>2</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>סגולה פתח תקווה</StoreName>
+<Address>סגולה</Address>
+<City>פתח תקווה</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>22</StoreId>
+<BikoretNo>1</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>חדרה</StoreName>
+<Address>unknown</Address>
+<City>unknown</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>23</StoreId>
+<BikoretNo>0</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>טבריה</StoreName>
+<Address>unknown</Address>
+<City>טבריה</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>24</StoreId>
+<BikoretNo>9</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>כפר סבא</StoreName>
+<Address>unknown</Address>
+<City>כפר סבא</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>25</StoreId>
+<BikoretNo>8</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>נס ציונה</StoreName>
+<Address>נס ציונה</Address>
+<City>נס ציונה</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>26</StoreId>
+<BikoretNo>7</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>רמת השרון</StoreName>
+<Address>unknown</Address>
+<City>unknown</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>27</StoreId>
+<BikoretNo>6</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>יד אליהו</StoreName>
+<Address>יגאל אלון 57</Address>
+<City>unknown</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>28</StoreId>
+<BikoretNo>5</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>ראשלצ רמת אליהו</StoreName>
+<Address>משורר השואה 15</Address>
+<City>ראשלצ</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>29</StoreId>
+<BikoretNo>4</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>בת ים</StoreName>
+<Address>בת ים</Address>
+<City>בת ים</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>30</StoreId>
+<BikoretNo>0</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>נתניה</StoreName>
+<Address>נתניה</Address>
+<City>נתניה</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>31</StoreId>
+<BikoretNo>9</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>מרכז סנטרו רחובות</StoreName>
+<Address>רחובות</Address>
+<City>רחובות</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>32</StoreId>
+<BikoretNo>8</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>בן צבי תל אביב</StoreName>
+<Address>unknown</Address>
+<City>unknown</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+<Store>
+<StoreId>33</StoreId>
+<BikoretNo>7</BikoretNo>
+<StoreType>1</StoreType>
+<StoreName>איירפורט סיטי</StoreName>
+<Address>unknown</Address>
+<City>unknown</City>
+<ZipCode>unknown</ZipCode>
+</Store>
+</Stores>
+</SubChain>
+</SubChains>
+</Root>

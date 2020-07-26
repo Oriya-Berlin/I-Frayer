@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+
+
+{% block productsnavbar %}
+{% include 'productsMenu.html' %}
+{% endblock %}
+
+
+{% block Main_title %}
+{% include 'MainTitle.html' %}
+{% endblock %}
+
+
+
+{% block content %}
+<h1>Products</h1>
+<div class="row">
+{% for p in products %}
+<div class="card m-1" style="width: 18rem;">
+  <img src="{{p.Image}}" class="card-img-top " height="250" width="100">
+  <div class="card-body">
+    <h5 class="card-title">{{p.Item_Name}}</h5>
+    <button type="button" class="btn btn-danger" data-toggle="popover"  title="Details" data-placement="bottom" data-content="Description: {{p.Manufacturer_Item_Description}} <br /> Manufacturer Name: {{p.Manufacturer_Name}} <br />" data-html="true">Details</button>
+    <a href="{% url 'add_to_cart' p.id%}" class="btn btn-primary">Add to Cart</a>
+  </div>
+</div>
+
+{% endfor %}
+</div>
+
+
+
+
+
+
+<script>
+  $(function () {
+  $('.btn').popover({
+    container: 'body'
+  })
+})
+</script>
+{% endblock %}
+

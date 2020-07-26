@@ -1,0 +1,274 @@
+
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Fruits/Vegetables
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Fruits' %}">Fruits</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Vegetables' %}">Vegetables</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Organic' %}">Organic</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'DriedFruit' %}">DriedFruit</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Nuts' %}">Nuts</a>
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Eggs/Milk/Salads
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Milk' %}">Milk</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Eggs' %}">Eggs</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Creamy Margarine Butter' %}">Creamy Margarine Butter</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Cheese' %}">Cheese</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Milk Delicacies & Yogurt' %}">Milk Delicacies & Yogurt</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Salads' %}">Salads</a>
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Meat/Fish
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Meat on fire' %}">Meat on fire</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Fish' %}">Fish</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Frozen meat' %}">Frozen meat</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Hot dogs and Sausages' %}">Hot dogs and Sausages</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Frozen chicken' %}">Frozen chicken</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Fresh chicken' %}">Fresh chicken</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Fresh meat' %}">Fresh meat</a>
+
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Organic/Health
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Free and reduced in sugar' %}">Free and reduced in sugar</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Soy and Lactose free' %}">Soy and Lactose free</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Gluten free' %}">Gluten free</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Organic' %}">Organic</a>
+
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Frozen
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Ice cream and Popsicle' %}">Ice cream and Popsicle</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Fast food' %}">Fast food</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Pizzas, Pastries and Dough' %}">Pizzas, Pastries and Dough</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Vegetarian-ready food' %}">Vegetarian-ready food</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Frozen vegetables and Fries' %}">Frozen vegetables and Fries</a>
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Canned/cook&bake
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Canning' %}">Canning</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Sauces' %}">Sauces</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Soups and Stews' %}">Soups and Stews</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Oil, Vinegar and Lemon juice' %}">Oil, Vinegar and Lemon juice</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Honey, Jam and Spreads' %}">Honey, Jam and Spreads</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Spices' %}">Spices</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Baking products' %}">Baking products</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Asian cuisine' %}">Asian cuisine</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Flour and Breadcrumbs' %}">Flour and Breadcrumbs</a>
+        </div>
+      </li>
+
+
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Legumes/grain
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Pasta, Flakes, Couscous' %}">Pasta, Flakes, Couscous</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Cereals' %}">Cereals</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Rice and Legumes' %}">Rice and Legumes</a>
+        </div>
+      </li>
+
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Snacks/Sweets
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Sweets' %}">Sweets</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Salty snacks' %}">Salty snacks</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Waffles and Biscuits' %}">Waffles and Biscuits</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Cakes and Cookies' %}">Cakes and Cookies</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Candy and Gum' %}">Candy and Gum</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Sweet snacks' %}">Sweet snacks</a>
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Drinks
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Soft drinks' %}">Soft drinks</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Hot beverages' %}">Hot beverages</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Wines' %}">Wines</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Alcohol and Energy' %}">Alcohol and Energy</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Concentrations' %}">Concentrations</a>
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Disposable/Biodegradable
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Paper products and Disposable' %}">Paper products and Disposable</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Covers, Bags and Molds' %}">Covers, Bags and Molds</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'One-time' %}">One-time</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Picnic' %}">Picnic</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Candles and Matches' %}">Candles and Matches</a>
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home maintenance
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Housewares' %}">Housewares</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Home cleaning products' %}">Home cleaning products</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Dish soaps' %}">Dish soaps</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Laundry products' %}">Laundry products</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' '>Cleaning accessorie' %}">Cleaning accessories</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Insecticides and Aerosols' %}">Insecticides and Aerosols</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Animals products' %}">Animals products</a>
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Care/Babies
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Hygiene products' %}">Hygiene products</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Pharm products' %}">Pharm products</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Diapers and Wipes' %}">Diapers and Wipes</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Babies food' %}">Babies food</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Baby care and Baby accessories' %}">Baby care and Baby accessories</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Soaps' %}">Soaps</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Shampoo and Conditioner' %}">Shampoo and Conditioner</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Deodorant' %}">Deodorant</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Shaving and Hair removal' %}">Shaving and Hair removal</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Oral hygiene' %}">Oral hygiene</a>
+        </div>
+      </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Bread/Pastries
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'products' 'Bread, Pita, Bun' %}">Bread, Pita, Bun</a>
+            <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="{% url 'products' 'Salty pastry' %}">Salty pastry</a>
+        </div>
+      </li>
+
+
+
+
+
+
+    </ul>
+  </div>
+</nav>
